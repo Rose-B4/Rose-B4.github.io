@@ -27,6 +27,8 @@ a {
     display: flex; /* allow text to be next to images */
     align-items: center; /* make text centered vertically */
     background-color: var(--color-header);
+    font-size:50px;
+    font-family:fantasy;
 }
 
 .header a { /* links in the header */
