@@ -1,0 +1,36 @@
+:root {
+    --color-bg: #25043d;
+    --color-header: hotpink;
+    --color-header-link: #0000EE;
+    --color-accent: #56d2e2;
+}
+
+body {
+    background-color: var(--color-bg);
+    /*text*/color: white;
+    font-family: Sans-Serif;
+}
+
+
+p {
+    font-size: 18px;
+    margin: 12px 0px;
+    line-height: 16.5px
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: underline dotted;
+}
+
+.header {
+    display: flex; /* allow text to be next to images */
+    align-items: center; /* make text centered vertically */
+    background-color: var(--color-header);
+    font-size:50px;
+    font-family:fantasy;
+}
+
+.header a { /* links in the header */
+    color: var(--color-header-link);
+}
